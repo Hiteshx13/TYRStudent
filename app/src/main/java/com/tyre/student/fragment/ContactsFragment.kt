@@ -11,11 +11,10 @@ import com.example.tyr.`interface`.UpcomingListener
 import com.tyre.student.R
 import com.tyre.student.activity.ChatActivity
 import com.tyre.student.activity.ReportCardsActivity
-import com.tyre.student.activity.StartTripActivity
+import com.tyre.student.activity.StartClassActivity
 import com.tyre.student.adapters.CompletedAdapter
 import com.tyre.student.adapters.UpcomingAdapter
 import com.tyre.student.databinding.FragmentContactsBinding
-import com.tyre.student.fragment.BaseFragment
 
 class ContactsFragment : BaseFragment(), View.OnClickListener {
 
@@ -87,7 +86,7 @@ class ContactsFragment : BaseFragment(), View.OnClickListener {
                     }
 
                     override fun onClickReschedule(view: View) {
-                        launchActivity(StartTripActivity.getIntent(mContext))
+                        launchActivity(StartClassActivity.getIntent(mContext))
                     }
 
                     override fun onClickMessage(view: View) {

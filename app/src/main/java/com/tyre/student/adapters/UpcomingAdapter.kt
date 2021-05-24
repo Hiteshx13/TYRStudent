@@ -42,18 +42,18 @@ class UpcomingAdapter(
         RecyclerView.ViewHolder(binding.root) {
         init {
 
-            binding.tvReportCard.setOnClickListener {
-                listener.onClickReportCards(it)
-            }
+//            binding.tvReportCard.setOnClickListener {
+//                listener.onClickReportCards(it)
+//            }
             binding.tvReschedule.setOnClickListener {
                 listener.onClickReschedule(it)
             }
             binding.tvCancel.setOnClickListener {
                 listener.onClickCancel(it)
             }
-            binding.ivMessage.setOnClickListener {
-                listener.onClickMessage(it)
-            }
+//            binding.ivMessage.setOnClickListener {
+//                listener.onClickMessage(it)
+//            }
             binding.ivProfile.setOnClickListener {
                 listener.onClickProfile(it)
             }

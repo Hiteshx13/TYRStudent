@@ -30,6 +30,9 @@
         <activity
             android:name=".activity.FAQActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PaymentActivity"
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".activity.ChatActivity"
@@ -49,7 +52,7 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".activity.StartTripActivity"
+            android:name=".activity.StartClassActivity"
             android:screenOrientation="portrait" />
 
         <activity
