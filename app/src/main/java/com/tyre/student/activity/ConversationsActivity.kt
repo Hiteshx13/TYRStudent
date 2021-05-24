@@ -45,6 +45,10 @@ class ConversationsActivity : BaseActivity(), View.OnClickListener {
             override fun onClickProfile(view: View) {
                 launchActivity(ChatActivity.getIntent(mContext))
             }
+
+            override fun onClickRatings(view: View) {
+
+            }
         })
     }
 

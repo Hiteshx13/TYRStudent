@@ -44,6 +44,10 @@ class CompletedAdapter(
             binding.tvPerformance.setOnClickListener {
                 listener.onClickPerformance(it)
             }
+            binding.tvRating.setOnClickListener {
+                listener.onClickRatings(it)
+            }
+
             binding.ivProfile.setOnClickListener {
                 listener.onClickProfile(it)
             }

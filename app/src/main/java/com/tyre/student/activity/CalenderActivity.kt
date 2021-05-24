@@ -9,7 +9,7 @@ import androidx.databinding.DataBindingUtil
 import com.tyre.student.R
 import com.tyre.student.databinding.ActivityCalenderBinding
 
-class CalenderActivity : AppCompatActivity(), View.OnClickListener {
+class CalenderActivity : BaseActivity(), View.OnClickListener {
 
     companion object {
         fun getIntent(context: Context): Intent {
@@ -32,6 +32,7 @@ class CalenderActivity : AppCompatActivity(), View.OnClickListener {
         }
         binding.btnBookNow.setOnClickListener {
             finish()
+            launchActivity(ConfirmBookingActivity.getIntent(mContext))
         }
 
     }

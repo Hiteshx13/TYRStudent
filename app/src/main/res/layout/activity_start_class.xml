@@ -18,6 +18,15 @@
             android:src="@drawable/icn_arrow_left_white"
             android:tint="@color/colorBlack" />
 
+        <androidx.appcompat.widget.AppCompatImageView
+
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_7sdp"
+            android:src="@drawable/ic_share_location" />
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cvFilters"
             android:layout_width="match_parent"

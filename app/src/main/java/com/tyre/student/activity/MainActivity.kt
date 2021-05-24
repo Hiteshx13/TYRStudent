@@ -68,7 +68,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
                 binding.llTabContact.isSelected = true
                 replaceFragment(ContactsFragment.newInstance(), false)
                 binding.ivRight.visibility = View.VISIBLE
-                binding.ivRight.setImageDrawable(getDrawable(R.drawable.icn_calendar))
+                binding.ivRight.setImageDrawable(getDrawable(R.drawable.icn_nav_message))
             }
             R.id.llTabUser -> {
                 TAB_SELECTED = 2
@@ -82,7 +82,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
             R.id.ivRight -> {
                 when (TAB_SELECTED) {
                     1 -> {
-
+                        launchActivity(ChatActivity.getIntent(mContext))
                     }
                     2 -> {
                         launchActivity(EditProfileActivity.getIntent(mContext))

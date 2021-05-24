@@ -33,6 +33,20 @@
         <activity
             android:name=".activity.PaymentActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ConfirmBookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ConfirmBookingMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PaymentMessageActivity"
+            android:screenOrientation="portrait" /> <activity
+            android:name=".activity.PerformanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CalenderActivity"
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".activity.ChatActivity"

@@ -7,7 +7,6 @@ import android.view.View
 import androidx.databinding.DataBindingUtil
 import com.tyre.student.R
 import com.tyre.student.databinding.ActivityConfBookingMessageBinding
-import com.tyre.student.databinding.ActivityConfirmBookingBinding
 
 class ConfirmBookingMessageActivity : BaseActivity(), View.OnClickListener {
 
@@ -39,7 +38,7 @@ class ConfirmBookingMessageActivity : BaseActivity(), View.OnClickListener {
                 finish()
             }
             R.id.btnGoToBookings -> {
-
+                finish()
             }
 
         }

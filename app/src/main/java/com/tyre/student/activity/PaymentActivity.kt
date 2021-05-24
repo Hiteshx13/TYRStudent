@@ -9,7 +9,7 @@ import androidx.databinding.DataBindingUtil
 import com.tyre.student.R
 import com.tyre.student.databinding.ActivityPaymentBinding
 
-class PaymentActivity : AppCompatActivity(), View.OnClickListener {
+class PaymentActivity : BaseActivity(), View.OnClickListener {
 
     companion object {
         fun getIntent(context: Context): Intent {
@@ -36,7 +36,7 @@ class PaymentActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         binding.btnPayNow.setOnClickListener {
-            finish()
+           launchActivity(PaymentMessageActivity.getIntent(mContext))
         }
 
     }

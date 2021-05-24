@@ -27,6 +27,19 @@
         <item name="android:textColorHint">@color/colorWhiteTransText</item>
     </style>
 
+    <style name="StyleEditTextGray">
+        <item name="android:background">@drawable/bg_gray_border</item>
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+        <item name="android:paddingStart">@dimen/_20sdp</item>
+        <item name="android:paddingLeft">@dimen/_20sdp</item>
+        <item name="android:paddingEnd">@dimen/_20sdp</item>
+        <item name="android:paddingRight">@dimen/_20sdp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="fontFamily">@font/worksans_light</item>
+        <item name="android:textColorHint">@color/colorWhiteTransText</item>
+    </style>
+
     <style name="StyleChooseButton">
         <item name="android:background">@drawable/bg_white_right_rounded</item>
         <item name="android:paddingTop">@dimen/_10sdp</item>

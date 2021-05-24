@@ -12,7 +12,7 @@
         <LinearLayout
             android:id="@+id/llMenu"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_70sdp"
+            android:layout_height="@dimen/_100sdp"
             android:layout_alignParentBottom="true"
             android:background="@drawable/bg_tab_blue"
             android:gravity="bottom">
@@ -20,13 +20,14 @@
             <LinearLayout
                 android:id="@+id/llTabHome"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/_60sdp"
                 android:layout_weight="1"
+
                 android:gravity="center">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
                     android:src="@drawable/selector_home" />
 
             </LinearLayout>
@@ -34,13 +35,13 @@
             <LinearLayout
                 android:id="@+id/llTabContact"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/_60sdp"
                 android:layout_weight="1"
                 android:gravity="center">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
                     android:src="@drawable/selector_contacts" />
 
             </LinearLayout>
@@ -48,13 +49,13 @@
             <LinearLayout
                 android:id="@+id/llTabUser"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/_60sdp"
                 android:layout_weight="1"
                 android:gravity="center">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
                     android:src="@drawable/selector_users" />
 
             </LinearLayout>
@@ -83,21 +84,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:gravity="center"
+                android:layout_toLeftOf="@+id/ivRight"
                 android:layout_toRightOf="@+id/ivNavigation"
+                android:gravity="center"
                 android:textColor="@color/colorWhite"
                 android:textSize="@dimen/_18ssp"
-                android:layout_toLeftOf="@+id/ivRight"
                 app:fontFamily="@font/worksans_medium"
                 tools:text="Heading" />
 
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/ivRight"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:padding="@dimen/_12sdp"
                 android:src="@drawable/icn_down_white" />

@@ -10,6 +10,7 @@ import com.example.tyr.`interface`.CompleteListener
 import com.example.tyr.`interface`.UpcomingListener
 import com.tyre.student.R
 import com.tyre.student.activity.ChatActivity
+import com.tyre.student.activity.PerformanceActivity
 import com.tyre.student.activity.ReportCardsActivity
 import com.tyre.student.activity.StartClassActivity
 import com.tyre.student.adapters.CompletedAdapter
@@ -40,6 +41,8 @@ class ContactsFragment : BaseFragment(), View.OnClickListener {
 
         binding.llTabUpcoming.setOnClickListener(this)
         binding.llTabCompleted.setOnClickListener(this)
+        binding.ivClose.setOnClickListener(this)
+        binding.btnSubmit.setOnClickListener(this)
         binding.llTabCompleted.callOnClick()
 
         binding.rvData.setHasFixedSize(true)
@@ -50,6 +53,12 @@ class ContactsFragment : BaseFragment(), View.OnClickListener {
 
     override fun onClick(view: View?) {
         when (view?.id) {
+            R.id.ivClose -> {
+                binding.cvRatings.visibility = View.GONE
+            }
+            R.id.btnSubmit -> {
+                binding.cvRatings.visibility = View.GONE
+            }
             R.id.llTabCompleted -> {
                 binding.tvPayout.isSelected = true
                 binding.viewPayout.isSelected = true
@@ -60,11 +69,15 @@ class ContactsFragment : BaseFragment(), View.OnClickListener {
                 binding.rvData.adapter = null
                 binding.rvData.adapter = CompletedAdapter(mContext, 30, object : CompleteListener {
                     override fun onClickPerformance(view: View) {
-//                        launchActivity(PerformanceActivity.getIntent(mContext))
+                        launchActivity(PerformanceActivity.getIntent(mContext))
                     }
 
                     override fun onClickProfile(view: View) {
 //                        launchActivity(UserDataActivity.getIntent(mContext))
+                    }
+
+                    override fun onClickRatings(view: View) {
+                        binding.cvRatings.visibility = View.VISIBLE
                     }
                 })
             }

@@ -40,7 +40,7 @@ class InstructorsMapActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(view: View?) {
         when (view?.id) {
             R.id.btnListView -> {
-                startActivity(UploadDocumentsActivity.getIntent(this))
+                finish()
             }
 
             R.id.ivFilter -> {

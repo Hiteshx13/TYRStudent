@@ -41,6 +41,7 @@ class InstructorsDetailsActivity : BaseActivity(), View.OnClickListener {
             }
             R.id.btnBookAClass -> {
                 finish()
+                launchActivity(CalenderActivity.getIntent(mContext))
             }
 
             R.id.llChat -> {

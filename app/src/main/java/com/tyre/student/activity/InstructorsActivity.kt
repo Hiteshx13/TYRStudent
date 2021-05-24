@@ -40,11 +40,15 @@ class InstructorsActivity : BaseActivity(), View.OnClickListener {
         binding.rvConversations.adapter =
             InstructorsAdapter(mContext, 30, object : CompleteListener {
                 override fun onClickPerformance(view: View) {
-                    TODO("Not yet implemented")
+
                 }
 
                 override fun onClickProfile(view: View) {
                     launchActivity(InstructorsDetailsActivity.getIntent(mContext))
+                }
+
+                override fun onClickRatings(view: View) {
+
                 }
             })
     }
