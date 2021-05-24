@@ -80,7 +80,7 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvFilters"
-            android:visibility="gone"
+            android:visibility=" "
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -150,10 +150,11 @@
 
                 </LinearLayout>
 
-                <ProgressBar
+                <SeekBar
                     style="?android:attr/progressBarStyleHorizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:indeterminateTint="@color/colorWhite"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:progress="50" />
 

@@ -44,7 +44,7 @@ class InstructorsActivity : BaseActivity(), View.OnClickListener {
                 }
 
                 override fun onClickProfile(view: View) {
-                    launchActivity(ChatActivity.getIntent(mContext))
+                    launchActivity(InstructorsDetailsActivity.getIntent(mContext))
                 }
             })
     }
