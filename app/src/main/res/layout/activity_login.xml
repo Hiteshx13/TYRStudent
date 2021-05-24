@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_blue_black"
+        tools:context=".activity.MainActivity">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:paddingStart="@dimen/_20sdp"
+          android:paddingLeft="@dimen/_20sdp"
+          android:paddingEnd="@dimen/_20sdp"
+          android:paddingRight="@dimen/_20sdp"
+          android:orientation="vertical"
+         >
+
+          <androidx.appcompat.widget.AppCompatTextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorWhite"
+              android:fontFamily="@font/worksans_light"
+              android:textSize="@dimen/_25ssp"
+              android:text="@string/welcome"/>
+          <androidx.appcompat.widget.AppCompatTextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorWhite"
+              android:layout_marginTop="@dimen/_15sdp"
+              android:textSize="@dimen/_12ssp"
+
+              android:fontFamily="@font/worksans_light"
+              android:text="@string/dummy_text"/>
+
+          <androidx.appcompat.widget.AppCompatEditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              tools:text=""
+              android:layout_marginTop="@dimen/_25sdp"
+              android:hint="@string/user_name"
+              style="@style/StyleEditText"
+              />
+
+          <androidx.appcompat.widget.AppCompatEditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              tools:text=""
+              android:layout_marginTop="@dimen/_20sdp"
+              android:hint="Password"
+              android:fontFamily="@font/worksans_light"
+              android:inputType="textPassword"
+              style="@style/StyleEditText"
+              />
+
+          <androidx.appcompat.widget.AppCompatTextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorWhite"
+              android:layout_marginTop="@dimen/_15sdp"
+              android:fontFamily="@font/worksans_light"
+              android:textSize="@dimen/_15ssp"
+              android:text="@string/forgot_password"/>
+
+
+          <androidx.appcompat.widget.AppCompatButton
+              android:id="@+id/btnSignIn"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              style="@style/StyleButtonYellow"
+              android:layout_marginTop="@dimen/_25sdp"
+              android:text="@string/sign_in"/>
+      </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_15ssp"
+                android:fontFamily="@font/worksans_light"
+                android:text="@string/don_t_have_an_account"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorYellow"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/worksans_light"
+                android:textSize="@dimen/_12ssp"
+                android:text="Sign Up"/>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

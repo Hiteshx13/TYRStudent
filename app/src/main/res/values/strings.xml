@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TYR Student</string>
+    <string name="welcome">Welcome</string>
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</string>
+    <string name="dummy_text_large"> Lorem Ipsum has been the industry Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</string>
+    <string name="user_name">User Name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_id">Email Id</string>
+    <string name="i_agree_the_terms_and_conditions">I agree the terms and conditions.</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="next">Next</string>
+    <string name="upload_documents">Upload Documents</string>
+    <string name="upload_license">Upload License</string>
+    <string name="upload_insurance">Upload Insurance</string>
+    <string name="upload_void_cheque">Upload Void Cheque</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="upload">Upload</string>
+    <string name="calender">Calender</string>
+    <string name="home">Home</string>
+    <string name="my_classes">My Classes</string>
+    <string name="chat">Chat</string>
+    <string name="my_profile">My Profile</string>
+    <string name="payouts">Payouts</string>
+    <string name="notifications">Notifications</string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="logout">Logout</string>
+    <string name="remaining_payouts">Remaining Payouts</string>
+    <string name="write_message">Write Message</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="completed">Completed</string>
+    <string name="performance">Performance</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="save">Save</string>
+    <string name="manoeuvres">Manoeuvres</string>
+    <string name="time_date"><![CDATA[Time & Date]]></string>
+    <string name="start_trip">Start Trip</string>
+    <string name="end_trip">End Trip</string>
+</resources>
