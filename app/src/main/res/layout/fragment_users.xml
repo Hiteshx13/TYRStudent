@@ -135,22 +135,20 @@
                 android:background="@color/colorWhite" />
 
 
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:orientation="horizontal">
 
 
                     <LinearLayout
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:background="@drawable/icn_polygon"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_80sdp"
+                          android:background="@drawable/ic_rectangle"
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -158,7 +156,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/worksans_medium"
-                            android:text="Toyota  "
+                            android:text="08"
                             android:textAllCaps="false"
                             android:textColor="@color/colorWhite"
                             android:textSize="@dimen/_14ssp" />
@@ -166,7 +164,7 @@
                         <androidx.appcompat.widget.AppCompatTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Car    "
+                            android:text="Total Classes"
                             android:textAllCaps="false"
                             android:textColor="@color/colorWhite"
                             android:textSize="@dimen/_8ssp" />
@@ -174,9 +172,10 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:background="@drawable/icn_polygon"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:background="@drawable/ic_rectangle"
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -184,7 +183,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/worksans_medium"
-                            android:text="350Km  "
+                            android:text="15Km"
                             android:textAllCaps="false"
                             android:textColor="@color/colorWhite"
                             android:textSize="@dimen/_14ssp" />
@@ -192,7 +191,7 @@
                         <androidx.appcompat.widget.AppCompatTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Driven    "
+                            android:text="Driven"
                             android:textAllCaps="false"
                             android:textColor="@color/colorWhite"
                             android:textSize="@dimen/_8ssp" />
@@ -200,9 +199,10 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:background="@drawable/icn_polygon"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:background="@drawable/ic_rectangle"
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -210,50 +210,24 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/worksans_medium"
-                            android:text="English, French  "
+                            android:text="15hr"
                             android:textAllCaps="false"
                             android:textColor="@color/colorWhite"
-                            android:textSize="@dimen/_8ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="know    "
-                            android:textAllCaps="false"
-                            android:textColor="@color/colorWhite"
-                            android:textSize="@dimen/_8ssp" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:background="@drawable/icn_polygon"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <androidx.appcompat.widget.AppCompatTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/worksans_medium"
-                            android:text="$30  "
-                            android:textAllCaps="false"
-                            android:textColor="@color/colorWhite"
-                            android:textSize="@dimen/_14ssp" />
-
-                        <androidx.appcompat.widget.AppCompatTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="per Hour    "
+                            android:text="Driven Time"
                             android:textAllCaps="false"
                             android:textColor="@color/colorWhite"
                             android:textSize="@dimen/_8ssp" />
 
                     </LinearLayout>
+
 
 
                 </LinearLayout>
-            </HorizontalScrollView>
 
             <View
                 android:layout_width="match_parent"
@@ -271,7 +245,7 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:text="Social Media"
+                android:text="Basic Details"
                 android:textColor="@color/colorWhite"
                 android:textSize="@dimen/_14ssp"
                 app:fontFamily="@font/worksans_medium" />
@@ -311,12 +285,12 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:drawableStart="@drawable/ic_password"
+                android:layout_marginBottom="@dimen/_10sdp"
 
+                android:drawableStart="@drawable/ic_password"
                 android:drawableLeft="@drawable/ic_password"
                 android:drawablePadding="@dimen/_20sdp"
                 android:text="**********"
-                android:layout_marginBottom="@dimen/_10sdp"
                 android:textColor="@color/colorWhite"
                 android:textSize="@dimen/_12ssp"
                 app:fontFamily="@font/worksans_medium" />

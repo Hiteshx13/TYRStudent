@@ -41,7 +41,7 @@ class SignUpActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.btnSignUp -> {
-                startActivity(MainActivity.getIntent(this))
+                startActivity(LoginMapActivity.getIntent(this))
                 finish()
             }
         }

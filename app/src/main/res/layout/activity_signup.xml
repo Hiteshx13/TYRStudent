@@ -91,7 +91,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:hint="@string/email_id"
-                    android:inputType="phone"
+                    android:inputType="textEmailAddress"
                     tools:text="" />
 
                 <androidx.appcompat.widget.AppCompatEditText
@@ -112,7 +112,6 @@
                     android:text="@string/i_agree_the_terms_and_conditions"
                     android:textColor="@color/colorWhite" />
 
-
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btnSignUp"
                     style="@style/StyleButtonYellow"
@@ -122,8 +121,5 @@
                     android:text="@string/sign_up" />
             </LinearLayout>
         </ScrollView>
-
-
-
     </RelativeLayout>
 </layout>
